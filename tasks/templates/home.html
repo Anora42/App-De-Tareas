@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">App de tareas</h1>
+        <p class="lead text-center">Bienvenido a nuestra aplicación de tareas. Organiza tu vida y aumenta tu productividad con nuestras funciones de gestión de tareas.</p>
+    
+    </section>
+    <section class="card card-body">       
+        <div class="text-center">
+            <p>¡Comienza ahora mismo!</p>
+            <ol>
+                <li>Regístrate para obtener una cuenta.</li>
+                <li>Inicia sesión con tus credenciales.</li>
+                <li>Crea tu primera tarea.</li>
+            </ol>
+            <a class="btn btn-primary" href="/signin/">Iniciar sesión</a>
+            <a class="btn btn-primary" href="registro">Registro</a>
+
+        </div>
+    </section>
+        
+</main>
+
+{% endblock %}
